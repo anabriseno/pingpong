@@ -1,0 +1,24 @@
+body {
+  background-color: #1d5fb6;
+  font-family: "Helvetica";
+  font-size: 45px;
+  font-variant: normal;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #dd5428;
+  font-family: "Helvetica";
+  font-size: 55px;
+  font-variant: normal;
+  text-align: center;
+
+}
+
+
+h1 {
+  font-family: "Helvetica";
+  font-size: 70px;
+  font-variant: normal;
+  text-align: center;
+}
