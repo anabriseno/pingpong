@@ -1,9 +1,25 @@
 body {
   background-color: #1d5fb6;
+}
+
+h1 {
   font-family: "Helvetica";
-  font-size: 45px;
+  font-size: 70px;
   font-variant: normal;
   text-align: center;
+
+}
+
+h2 {
+  font-family: "Helvetica";
+  font-size: 30px;
+  font-variant: normal;
+  text-align: center
+
+}
+
+ul {
+
 }
 
 .jumbotron {
@@ -13,12 +29,4 @@ body {
   font-variant: normal;
   text-align: center;
 
-}
-
-
-h1 {
-  font-family: "Helvetica";
-  font-size: 70px;
-  font-variant: normal;
-  text-align: center;
 }

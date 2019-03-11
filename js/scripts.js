@@ -1,12 +1,27 @@
-var factorial = function(fact1) {
-  return ((fact1) * 1 * 2 * 3 * 4);
+var divisable = function(number1) {
+  return (result);
 };
+
+
 
 $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
-    var fact1 = parseInt($("input#fact1").val());
-    var result = factorial(fact1);
+    var number1 = parseInt($("input#number1").val());
+    var result = divisable(number1);
+
+    if (number1 / 3) {
+      var result = "PING"
+    }
+
+    if (number1 / 5) {
+      var result = "PONG"
+    }
+
+    if (number / 15) {
+      var result = "PING PONG!"
+    };
+
     $("#result").text(result);
   });
 });
